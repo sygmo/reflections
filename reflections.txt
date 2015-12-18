@@ -1,0 +1,64 @@
+diff (or FC in the Windows version, gotta remember that) helps out enormously
+when I'm looking for tiny errors in huge files. By working on a copy of the 
+old file, I can introduce changes without completely destroying working code.
+
+Just a reminder:
+diff -u old_file new_file
+FC old_file new_file
+
+
+Being able to access the entire history of a file makes it easy to revisit
+code I may have been too hasty to discard. Otherwise I would have to recreate
+it completely from scratch, which is both time-consuming and inefficient.
+
+
+Automatically saving versions of my code can be inconvenient if I'm in the 
+middle of a line or an incomplete feature. These versions won't be useful.
+However, if I manually save then I can choose logical points to create
+commits. The cons of this is that I could forget to commit, which would 
+result in a really huge commit later on, or commit too often, which would 
+result in too much clutter.
+
+
+Some changes can affect multiple files, so this is probably why Git allows
+saving multiple files in one commit. The files are inter-related. On the other
+hand, Google docs are usually completely separate, unrelated files, so those
+only ever need to be saved individually.
+
+
+I can use git log to list the commits made to a project in order. When I want
+to determine how many changes have been made to any particular commit, I just
+use the id of that commit and the id of the commit made before it and use
+git diff on them both.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+If I know I can always revert back to an older version of the code that I
+know has no bugs, then it doesn't matter how much I change or break the code.
+I can experiment and take more risks that normally I would be worried to do.
+
+
+Now that you have your workspace set up, what do you want to try using Git
+for?
+
+I would like to use Git to create and clone a new repo, syncing it with my
+personal Git account. I would also like to move my PitchPerfect app into a
+Git repo.
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+

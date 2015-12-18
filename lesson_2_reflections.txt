@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository creates a default repo with no commits. Creating
+one will allow current and future versions of the code to be saved.
+
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The staging area contains files that have not yet been added or synced to the
+repository, but does not necessarily contain all updated files from the
+working directory. This is helpful, because it allows you to choose which 
+files you want to sync and which you don't.
+
+
+
+Git Commands:
+	diff
+	clone
+	checkout
+	log - shows list of all commits
+	status - shows files that have changed since last commit
+	add
+	reset
