@@ -47,7 +47,16 @@ the diagram the way we do?
 Any additional commits from the merged branch are added to the master branch.
 Code that was deleted from either branch remains deleted. Both original 
 branches become the parents of the new mergerd branch, and the commits are
-sorted by timestamp. 
+sorted by timestamp.
+
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges 
+manually?
+
+Pros: much easier and quicker
+Cons: the wrong version of the code may be the result of the merge; In these 
+cases it's best to do the merge manually. 
 
 
 
