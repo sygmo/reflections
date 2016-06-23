@@ -37,7 +37,17 @@ altering the master branch.
 How do the diagrams help you visualize the branch structure?
 
 I can more easily see which commits are part of each branch, and which 
-commits are unreachable. 
+commits are unreachable.
+
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Any additional commits from the merged branch are added to the master branch.
+Code that was deleted from either branch remains deleted. Both original 
+branches become the parents of the new mergerd branch, and the commits are
+sorted by timestamp. 
 
 
 
@@ -50,5 +60,8 @@ Git Commands:
 	add
 	reset
 	branch - shows all checked out branches
+	branch -d - deletes branch
+	merge
+	show
 
 git log --graph --oneline master branch_name  (visual representation of commit history)
