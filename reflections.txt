@@ -32,12 +32,14 @@ use the id of that commit and the id of the commit made before it and use
 git diff on them both.
 
 
+
 How might using version control make you more confident to make changes that
 could break something?
 
 If I know I can always revert back to an older version of the code that I
 know has no bugs, then it doesn't matter how much I change or break the code.
 I can experiment and take more risks that normally I would be worried to do.
+
 
 
 Now that you have your workspace set up, what do you want to try using Git
@@ -49,7 +51,12 @@ Git repo.
 
 
 
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
 
+If something isn't working out, I can always go back to an older version and
+find out what the problem was. Also, I'll have saved versions of older,
+working code to fall back on if I break something.
 
 
 

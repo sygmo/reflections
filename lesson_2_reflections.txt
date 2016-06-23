@@ -4,6 +4,7 @@ Initializing a repository creates a default repo with no commits. Creating
 one will allow current and future versions of the code to be saved.
 
 
+
 How is the staging area different from the working directory and the 
 repository? What value do you think it offers?
 
@@ -14,11 +15,34 @@ files you want to sync and which you don't.
 
 
 
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+You can check to be sure that you're not commiting too many files at once.
+Also, diff --staged can be used to check the changes made with the most
+recent commit in the repository.
+
+
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches would help if I wanted to create an experimental new feature, but
+I still want to keep a working version of the code I've already written.
+Branches allow me to commit code based on the master branch without actually
+altering the master branch.
+
+
+
+
 Git Commands:
-	diff
+	diff -u
 	clone
 	checkout
 	log - shows list of all commits
 	status - shows files that have changed since last commit
 	add
 	reset
+	branch - shows all checked out branches
+
+git log --graph --oneline master branch_name  (visual representation of commit history)
