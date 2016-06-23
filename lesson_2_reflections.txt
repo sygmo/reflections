@@ -34,6 +34,12 @@ altering the master branch.
 
 
 
+How do the diagrams help you visualize the branch structure?
+
+I can more easily see which commits are part of each branch, and which 
+commits are unreachable. 
+
+
 
 Git Commands:
 	diff -u
