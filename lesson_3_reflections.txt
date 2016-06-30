@@ -12,3 +12,11 @@ automatically stay up-to-date with your remote repository?
 Another contributor may have altered the remote repo, so pulling those changes 
 may interfere with whatever I'm working on locally.
 
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork - used to create your own version of a public repo
+Clone - copy of a repo on the local directory
+Branch - used to create experimental features 
+
