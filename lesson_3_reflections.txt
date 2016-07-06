@@ -20,3 +20,10 @@ Fork - used to create your own version of a public repo
 Clone - copy of a repo on the local directory
 Branch - used to create experimental features 
 
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can run git diff on the current file and the last known state. It also
+makes it easier to return to themost recent stable state when you make a 
+mistake.
