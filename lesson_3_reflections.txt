@@ -14,7 +14,8 @@ may interfere with whatever I'm working on locally.
 
 
 
-Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
 
 Fork - used to create your own version of a public repo
 Clone - copy of a repo on the local directory
@@ -22,8 +23,19 @@ Branch - used to create experimental features
 
 
 
-What is the benefit of having a copy of the last known state of the remote stored locally?
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
 
 You can run git diff on the current file and the last known state. It also
 makes it easier to return to themost recent stable state when you make a 
 mistake.
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+Without Git my collaborators and I would just need to use email or work in the 
+same room together. This would remove the steep learning curve for Git, but 
+sending each other our code snippets and keeping track of changes would be much
+harder.
