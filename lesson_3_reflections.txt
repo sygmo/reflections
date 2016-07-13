@@ -39,3 +39,12 @@ Without Git my collaborators and I would just need to use email or work in the
 same room together. This would remove the steep learning curve for Git, but 
 sending each other our code snippets and keeping track of changes would be much
 harder.
+
+
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+I would use a separate branch to test out an experimental feature that I don't
+want to alter the master branch just yet. It's easier to do everything directly
+on the master branch, but it's often better to compartmentalize.
